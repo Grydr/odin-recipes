@@ -1,0 +1,52 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  background-color: #111111;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.images-container {
+  margin: 25px auto;
+  text-align: center;
+  color: white;
+}
+
+.images-container img {
+  border: 3px solid white;
+}
+
+.entries-container {
+  text-align: center;
+}
+
+.entries {
+  display: inline-block;
+  text-align: justify;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 20px;
+}
+
+.entries li {
+  padding: 5px 0;
+  list-style-position: inside;
+}
+
+li::marker {
+  /* content: none; */
+  color: white;
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:visited {
+  color: #c58af9;
+}
