@@ -35,12 +35,34 @@
 
 .entries li {
   padding: 5px 0;
-  list-style-position: inside;
+
+margin: 5px;}
+
+.description {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.ingredients {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.steps {
+  color: white;
+  padding: 5px;
+  margin: 5px;
 }
 
 li::marker {
   /* content: none; */
   color: white;
+}
+
+li {
+  list-style-position: inside;
 }
 
 a:link {
